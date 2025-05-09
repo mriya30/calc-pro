@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calc.css">
+    <script src="calc.js"></script>
+</head>
+
+<body>
+    <center>
+        <div class="main">
+            
+            <input type="text" class="text-end fs-2 shadow-sm" id="res" placeholder="0">
+            <div class="btn">
+                <button type="button" value="X" onclick="lastDelete()">X</button>
+                <button type="button" value="C" onclick="clearAll()">C</button>
+                <button type="button" value="%" onclick="calc(this.value)">%</button>
+                <button type="button" value="/" onclick="calc(this.value)">/</button>
+                <br><br>
+                <button type="button" value="7" onclick="calc(this.value)">7</button>
+                <button type="button" value="8" onclick="calc(this.value)">8</button>
+                <button type="button" value="9" onclick="calc(this.value)">9</button>
+                <button type="button" value="*" onclick="calc(this.value)">*</button>
+                <br><br>
+                <button type="button" value="4" onclick="calc(this.value)">4</button>
+                <button type="button" value="5" onclick="calc(this.value)">5</button>
+                <button type="button" value="6" onclick="calc(this.value)">6</button>
+                <button type="button" value="+" onclick="calc(this.value)">+</button>
+                <br><br>
+                <button type="button" value="1" onclick="calc(this.value)">1</button>
+                <button type="button" value="2" onclick="calc(this.value)">2</button>
+                <button type="button" value="3" onclick="calc(this.value)">3</button>
+                <button type="button" value="-" onclick="calc(this.value)">-</button>
+                <br><br>
+                <button type="button" class="num" value="0" onclick="calc(this.value)">0</button>
+                <button type="button" value="." onclick="calc(this.value)">.</button>
+                <button type="button" value="=" onclick="output()">=</button>
+
+
+            </div>
+        </div>
+    </center>
+
+</body>
+
+</html>
